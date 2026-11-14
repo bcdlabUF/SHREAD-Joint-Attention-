@@ -1,0 +1,78 @@
+
+== Infant book looking (n = 60)
+  Mauchly W = 0.895, p = 0.0395; GG epsilon = 0.907  -> Greenhouse-Geisser applied
+  page: F(2, 114) = 3.97, p = 0.0254, np2 = 0.065;  page x age F = 1.91, p = 0.1200
+  Shapiro-Wilk on residuals p = 0.4694;  Friedman chi2(2) = 14.03, p = 0.0009
+  individual vs category: p = 0.1206, Holm p = 0.2412
+  individual vs none: p = 0.0182, Holm p = 0.0546
+  category vs none: p = 0.1525, Holm p = 0.2412
+
+== Infant sustained attention (n = 60)
+  Mauchly W = 0.913, p = 0.0709; GG epsilon = 0.907
+  page: F(2, 114) = 2.04, p = 0.1343, np2 = 0.035;  page x age F = 1.62, p = 0.1735
+  Shapiro-Wilk on residuals p = 0.4632;  Friedman chi2(2) = 6.61, p = 0.0368
+  individual vs category: p = 0.3867, Holm p = 0.4374
+  individual vs none: p = 0.0839, Holm p = 0.2516
+  category vs none: p = 0.2187, Holm p = 0.4374
+
+== Parent book looking (n = 60)
+  Mauchly W = 0.951, p = 0.2298; GG epsilon = 0.956
+  page: F(2, 114) = 8.01, p = 0.0006, np2 = 0.123;  page x age F = 1.49, p = 0.2097
+  Shapiro-Wilk on residuals p = 0.0564;  Friedman chi2(2) = 11.43, p = 0.0033
+  individual vs category: p = 0.1122, Holm p = 0.1122
+  individual vs none: p = 0.0235, Holm p = 0.0471
+  category vs none: p = 0.0003, Holm p = 0.0010
+
+== Joint attention (n = 60)
+  Mauchly W = 0.934, p = 0.1364; GG epsilon = 0.919
+  page: F(2, 114) = 6.71, p = 0.0018, np2 = 0.105;  page x age F = 1.50, p = 0.2058
+  Shapiro-Wilk on residuals p = 0.2565;  Friedman chi2(2) = 16.90, p = 0.0002
+  individual vs category: p = 0.9446, Holm p = 0.9446
+  individual vs none: p = 0.0072, Holm p = 0.0145
+  category vs none: p = 0.0016, Holm p = 0.0048
+
+== Joint attention above chance (n = 60)
+  Mauchly W = 0.967, p = 0.3806; GG epsilon = 0.968
+  page: F(2, 114) = 7.29, p = 0.0010, np2 = 0.113;  page x age F = 2.19, p = 0.0747
+  Shapiro-Wilk on residuals p = 0.7107;  Friedman chi2(2) = 11.20, p = 0.0037
+  individual vs category: p = 0.4359, Holm p = 0.4359
+  individual vs none: p = 0.0125, Holm p = 0.0250
+  category vs none: p = 0.0004, Holm p = 0.0011
+
+== Coordination (Fisher z) (n = 59)
+  Mauchly W = 0.959, p = 0.3026; GG epsilon = 0.958
+  page: F(2, 112) = 0.64, p = 0.5286, np2 = 0.011;  page x age F = 0.39, p = 0.8171
+  Shapiro-Wilk on residuals p = 0.0001;  Friedman chi2(2) = 4.20, p = 0.1222
+  individual vs category: p = 0.2559, Holm p = 0.7678
+  individual vs none: p = 0.3804, Holm p = 0.7678
+  category vs none: p = 0.8092, Holm p = 0.8092
+
+== Bouts led by infant, above chance (n = 42)
+  Mauchly W = 0.929, p = 0.2278; GG epsilon = 0.955
+  page: F(2, 78) = 1.06, p = 0.3530, np2 = 0.026;  page x age F = 1.36, p = 0.2539
+  Shapiro-Wilk on residuals p = 0.0638;  Friedman chi2(2) = 2.05, p = 0.3592
+  individual vs category: p = 0.2926, Holm p = 0.5853
+  individual vs none: p = 0.6646, Holm p = 0.6646
+  category vs none: p = 0.1656, Holm p = 0.4969
+
+== Granger, parent -> infant (n = 58)
+  Mauchly W = 0.664, p = 0.0000; GG epsilon = 0.734  -> Greenhouse-Geisser applied
+  page: F(2, 110) = 0.45, p = 0.5809, np2 = 0.008;  page x age F = 1.46, p = 0.2315
+  Shapiro-Wilk on residuals p = 0.0000;  Friedman chi2(2) = 0.97, p = 0.6171
+  individual vs category: p = 0.4789, Holm p = 1.0000
+  individual vs none: p = 0.3836, Holm p = 1.0000
+  category vs none: p = 0.6995, Holm p = 1.0000
+
+== Granger, infant -> parent (n = 58)
+  Mauchly W = 0.757, p = 0.0004; GG epsilon = 0.791  -> Greenhouse-Geisser applied
+  page: F(2, 110) = 0.26, p = 0.7191, np2 = 0.005;  page x age F = 1.46, p = 0.2291
+  Shapiro-Wilk on residuals p = 0.0114;  Friedman chi2(2) = 0.66, p = 0.7207
+  individual vs category: p = 0.3665, Holm p = 1.0000
+  individual vs none: p = 0.5981, Holm p = 1.0000
+  category vs none: p = 0.9552, Holm p = 1.0000
+
+== Span-level GEE: k = 547 spans, 54 of 60 dyads returned to an earlier page type
+  Infant book looking: without time chi2(2) = 7.85, p = 0.0198;  with time chi2(2) = 3.83, p = 0.1471;  time b = -0.029/min, p = 0.0002;  none vs individual b = -0.044, p = 0.0632
+  Infant sustained attention: without time chi2(2) = 5.28, p = 0.0714;  with time chi2(2) = 3.43, p = 0.1798;  time b = -0.016/min, p = 0.0378;  none vs individual b = -0.046, p = 0.0670
+  Parent book looking: without time chi2(2) = 18.52, p = 0.0001;  with time chi2(2) = 13.11, p = 0.0014;  time b = -0.038/min, p = 0.0000;  none vs individual b = -0.046, p = 0.0233
+  Joint attention: without time chi2(2) = 16.72, p = 0.0002;  with time chi2(2) = 11.54, p = 0.0031;  time b = -0.030/min, p = 0.0000;  none vs individual b = -0.052, p = 0.0052

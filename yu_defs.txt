@@ -1,0 +1,21 @@
+     ja_frame  ja_yu     sa  sa_share
+age                                  
+6       0.362  0.354  0.393     0.689
+9       0.223  0.217  0.209     0.606
+12      0.255  0.251  0.251     0.659
+corr ja_frame vs ja_yu r=0.999
+ja_yu F(2,57)=3.90 p=0.0259 np2=0.120 | KW H=7.75 p=0.0208 [['12', '6', 0.149], ['12', '9', 0.796], ['6', '9', 0.023]]
+sa F(2,57)=4.40 p=0.0167 np2=0.134 | KW H=5.41 p=0.0668 [['12', '6', 0.107], ['12', '9', 0.808], ['6', '9', 0.015]]
+sa_share F(2,57)=0.54 p=0.5855 np2=0.019 | KW H=1.79 p=0.4082 [['12', '6', 0.935], ['12', '9', 0.81], ['6', '9', 0.565]]
+
+% of utterances produced during infant sustained attention, by type:
+kind
+attention_directing    0.254
+nonbook                0.286
+action                 0.300
+analogy                0.314
+category_name          0.320
+visual_description     0.348
+individual_name        0.379
+Name: in_sa, dtype: float64
+{'action': (np.float64(1.0), np.float64(0.9984)), 'analogy': (np.float64(1.26), np.float64(0.5549)), 'attention_directing': (np.float64(0.94), np.float64(0.6616)), 'category_name': (np.float64(1.2), np.float64(0.5254)), 'individual_name': (np.float64(1.56), np.float64(0.1435)), 'visual_description': (np.float64(1.37), np.float64(0.2824))}

@@ -1,0 +1,230 @@
+
+==============================================================================
+INFANT ATTENTION BY AGE (Figure 3)
+==============================================================================
+
+Infant book looking (proportion of session, from covariates.csv): F(2, 57) = 6.35, p = 0.003, np2 = 0.182; Shapiro-Wilk p = 0.060
+      mean    std    sem  count
+age                            
+6    0.500  0.217  0.049     20
+9    0.299  0.141  0.029     23
+12   0.339  0.220  0.053     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': -0.1615, 'p_tukey': 0.0358}, {'A': '12', 'B': '9', 'diff': 0.04, 'p_tukey': 0.7933}, {'A': '6', 'B': '9', 'diff': 0.2015, 'p_tukey': 0.0032}]
+
+Infant sustained attention (looks >= 3 s): F(2, 57) = 4.40, p = 0.017, np2 = 0.134; Shapiro-Wilk p = 0.119
+      mean    std    sem  count
+age                            
+6    0.393  0.268  0.060     20
+9    0.209  0.147  0.031     23
+12   0.251  0.204  0.050     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': -0.1427, 'p_tukey': 0.1073}, {'A': '12', 'B': '9', 'diff': 0.0419, 'p_tukey': 0.8079}, {'A': '6', 'B': '9', 'diff': 0.1846, 'p_tukey': 0.0154}]
+
+Share of book looking that was sustained: F(2, 57) = 0.54, p = 0.585, np2 = 0.019; Shapiro-Wilk p = 0.000
+      mean    std    sem  count
+age                            
+6    0.689  0.275  0.062     20
+9    0.606  0.272  0.057     23
+12   0.659  0.240  0.058     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': -0.0304, 'p_tukey': 0.9354}, {'A': '12', 'B': '9', 'diff': 0.0524, 'p_tukey': 0.8103}, {'A': '6', 'B': '9', 'diff': 0.0827, 'p_tukey': 0.5653}]
+  Kruskal-Wallis H(2) = 1.79, p = 0.408; Dunn (Bonferroni): {6: {6: 1.0, 9: 0.5492, 12: 1.0}, 9: {6: 0.5492, 9: 1.0, 12: 1.0}, 12: {6: 1.0, 9: 1.0, 12: 1.0}}
+
+Parent book looking (proportion of session): F(2, 57) = 1.55, p = 0.221, np2 = 0.052; Shapiro-Wilk p = 0.176
+      mean    std    sem  count
+age                            
+6    0.612  0.159  0.036     20
+9    0.568  0.149  0.031     23
+12   0.517  0.186  0.045     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': -0.095, 'p_tukey': 0.1921}, {'A': '12', 'B': '9', 'diff': -0.0504, 'p_tukey': 0.6024}, {'A': '6', 'B': '9', 'diff': 0.0446, 'p_tukey': 0.648}]
+
+==============================================================================
+JOINT ATTENTION (Figure 4B)
+==============================================================================
+
+Joint attention: F(2, 57) = 3.91, p = 0.026, np2 = 0.121; Shapiro-Wilk p = 0.001
+      mean    std    sem  count
+age                            
+6    0.353  0.179  0.040     20
+9    0.216  0.129  0.027     23
+12   0.250  0.190  0.046     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': -0.103, 'p_tukey': 0.15}, {'A': '12', 'B': '9', 'diff': 0.0345, 'p_tukey': 0.7913}, {'A': '6', 'B': '9', 'diff': 0.1375, 'p_tukey': 0.0228}]
+  Kruskal-Wallis H(2) = 7.93, p = 0.019; Dunn (Bonferroni): {6: {6: 1.0, 9: 0.0266, 12: 0.083}, 9: {6: 0.0266, 9: 1.0, 12: 1.0}, 12: {6: 0.083, 9: 1.0, 12: 1.0}}
+
+Joint attention vs independent-looking chance: observed M = 0.271 vs chance 0.239, t(59) = 9.07, p = 0.0000
+   6 mo: 0.353 vs 0.326, t = 4.54, p = 0.0002, Holm p = 0.0002
+   9 mo: 0.216 vs 0.182, t = 4.94, p = 0.0001, Holm p = 0.0001
+  12 mo: 0.25 vs 0.212, t = 7.01, p = 0.0000, Holm p = 0.0000
+  condition x age: F(2, 57) = 0.71, p = 0.498
+
+JA excess over chance: F(2, 57) = 0.71, p = 0.498, np2 = 0.024; Shapiro-Wilk p = 0.055
+      mean    std    sem  count
+age                            
+6    0.027  0.027  0.006     20
+9    0.033  0.032  0.007     23
+12   0.038  0.023  0.005     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': 0.011, 'p_tukey': 0.4691}, {'A': '12', 'B': '9', 'diff': 0.005, 'p_tukey': 0.8427}, {'A': '6', 'B': '9', 'diff': -0.006, 'p_tukey': 0.7699}]
+
+JA observed/chance ratio [1 outlier(s) |z|>=3 removed]: F(2, 56) = 1.90, p = 0.160, np2 = 0.063; Shapiro-Wilk p = 0.000
+      mean    std    sem  count
+age                            
+6    1.150  0.257  0.058     20
+9    1.229  0.210  0.044     23
+12   1.319  0.320  0.080     16
+  Tukey: [{'A': '12', 'B': '6', 'diff': 0.1694, 'p_tukey': 0.1353}, {'A': '12', 'B': '9', 'diff': 0.0901, 'p_tukey': 0.5385}, {'A': '6', 'B': '9', 'diff': -0.0793, 'p_tukey': 0.5803}]
+  Kruskal-Wallis H(2) = 5.53, p = 0.063; Dunn (Bonferroni): {6: {6: 1.0, 9: 0.305, 12: 0.0693}, 9: {6: 0.305, 9: 1.0, 12: 1.0}, 12: {6: 0.0693, 9: 1.0, 12: 1.0}}
+
+Share of infant book looking in JA: F(2, 57) = 0.02, p = 0.983, np2 = 0.001; Shapiro-Wilk p = 0.020
+      mean    std    sem  count
+age                            
+6    0.689  0.134  0.030     20
+9    0.697  0.161  0.034     23
+12   0.690  0.169  0.041     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': 0.0008, 'p_tukey': 0.9999}, {'A': '12', 'B': '9', 'diff': -0.0073, 'p_tukey': 0.9882}, {'A': '6', 'B': '9', 'diff': -0.008, 'p_tukey': 0.9843}]
+  Kruskal-Wallis H(2) = 0.20, p = 0.905; Dunn (Bonferroni): {6: {6: 1.0, 9: 1.0, 12: 1.0}, 9: {6: 1.0, 9: 1.0, 12: 1.0}, 12: {6: 1.0, 9: 1.0, 12: 1.0}}
+
+Number of JA bouts: F(2, 57) = 14.71, p = 0.000, np2 = 0.340; Shapiro-Wilk p = 0.930
+       mean     std    sem  count
+age                              
+6    36.400  10.480  2.343     20
+9    20.391   9.179  1.914     23
+12   23.941  10.395  2.521     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': -12.4588, 'p_tukey': 0.0011}, {'A': '12', 'B': '9', 'diff': 3.5499, 'p_tukey': 0.5102}, {'A': '6', 'B': '9', 'diff': 16.0087, 'p_tukey': 0.0}]
+
+JA bouts per minute of reading time: F(2, 57) = 10.42, p = 0.000, np2 = 0.268; Shapiro-Wilk p = 0.386
+      mean    std    sem  count
+age                            
+6    8.892  2.749  0.615     20
+9    5.450  2.138  0.446     23
+12   6.167  2.832  0.687     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': -2.7247, 'p_tukey': 0.0057}, {'A': '12', 'B': '9', 'diff': 0.7169, 'p_tukey': 0.657}, {'A': '6', 'B': '9', 'diff': 3.4415, 'p_tukey': 0.0001}]
+
+Joint attention vs circular-shift chance (reported): observed M = 0.271 vs chance 0.229, t(59) = 12.23, p = 0.0000
+   6 mo: 0.353 vs 0.315, t = 6.73, p = 0.0000, Holm p = 0.0000
+   9 mo: 0.216 vs 0.171, t = 6.99, p = 0.0000, Holm p = 0.0000
+  12 mo: 0.25 vs 0.205, t = 7.68, p = 0.0000, Holm p = 0.0000
+  condition x age: F(2, 57) = 0.49, p = 0.616
+
+==============================================================================
+BOOK-LOOKING COORDINATION (Figure 4C)
+==============================================================================
+
+Coordination vs circular-shift chance (reported): observed M = 0.112 vs chance -0.010, t(59) = 8.81, p = 0.0000
+   6 mo: 0.078 vs -0.007, t = 4.78, p = 0.0001, Holm p = 0.0002
+   9 mo: 0.105 vs -0.011, t = 4.84, p = 0.0001, Holm p = 0.0002
+  12 mo: 0.162 vs -0.014, t = 6.51, p = 0.0000, Holm p = 0.0000
+  condition x age: F(2, 57) = 3.56, p = 0.035
+z_all vs circ: t(59) = 8.81, p = 2.409e-12
+z_all vs pseudo: t(59) = 8.14, p = 3.142e-11
+
+Coordination (mean Fisher z, lags -10..+10 s): F(2, 57) = 3.64, p = 0.033, np2 = 0.113; Shapiro-Wilk p = 0.001
+      mean    std    sem  count
+age                            
+6    0.078  0.074  0.017     20
+9    0.105  0.104  0.022     23
+12   0.162  0.103  0.025     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': 0.0831, 'p_tukey': 0.0271}, {'A': '12', 'B': '9', 'diff': 0.0565, 'p_tukey': 0.1588}, {'A': '6', 'B': '9', 'diff': -0.0266, 'p_tukey': 0.6306}]
+  Kruskal-Wallis H(2) = 6.93, p = 0.031; Dunn (Bonferroni): {6: {6: 1.0, 9: 1.0, 12: 0.0354}, 9: {6: 1.0, 9: 1.0, 12: 0.1237}, 12: {6: 0.0354, 9: 0.1237, 12: 1.0}}
+
+Coordination minus circular-shift chance: F(2, 57) = 3.56, p = 0.035, np2 = 0.111; Shapiro-Wilk p = 0.001
+      mean    std    sem  count
+age                            
+6    0.085  0.080  0.018     20
+9    0.116  0.115  0.024     23
+12   0.175  0.111  0.027     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': 0.0901, 'p_tukey': 0.0283}, {'A': '12', 'B': '9', 'diff': 0.059, 'p_tukey': 0.1836}, {'A': '6', 'B': '9', 'diff': -0.031, 'p_tukey': 0.5912}]
+  Kruskal-Wallis H(2) = 6.97, p = 0.031; Dunn (Bonferroni): {6: {6: 1.0, 9: 1.0, 12: 0.0322}, 9: {6: 1.0, 9: 1.0, 12: 0.1418}, 12: {6: 0.0322, 9: 0.1418, 12: 1.0}}
+
+Coordination minus pseudo-dyad chance: F(2, 57) = 3.34, p = 0.042, np2 = 0.105; Shapiro-Wilk p = 0.000
+      mean    std    sem  count
+age                            
+6    0.078  0.080  0.018     20
+9    0.087  0.095  0.020     23
+12   0.151  0.106  0.026     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': 0.0735, 'p_tukey': 0.053}, {'A': '12', 'B': '9', 'diff': 0.0647, 'p_tukey': 0.0863}, {'A': '6', 'B': '9', 'diff': -0.0088, 'p_tukey': 0.9496}]
+  Kruskal-Wallis H(2) = 6.96, p = 0.031; Dunn (Bonferroni): {6: {6: 1.0, 9: 1.0, 12: 0.0537}, 9: {6: 1.0, 9: 1.0, 12: 0.0668}, 12: {6: 0.0537, 9: 0.0668, 12: 1.0}}
+
+Coordination at lag 0: F(2, 57) = 1.14, p = 0.326, np2 = 0.039; Shapiro-Wilk p = 0.115
+      mean    std    sem  count
+age                            
+6    0.174  0.106  0.024     20
+9    0.201  0.126  0.026     23
+12   0.232  0.114  0.028     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': 0.058, 'p_tukey': 0.2929}, {'A': '12', 'B': '9', 'diff': 0.031, 'p_tukey': 0.6847}, {'A': '6', 'B': '9', 'diff': -0.0271, 'p_tukey': 0.7283}]
+
+==============================================================================
+RECIPROCITY: WHO LED JOINT ATTENTION (Figure 4D)
+==============================================================================
+
+Proportion of JA bouts led by the infant: F(2, 57) = 4.81, p = 0.012, np2 = 0.144; Shapiro-Wilk p = 0.694
+      mean    std    sem  count
+age                            
+6    0.560  0.209  0.047     20
+9    0.410  0.164  0.034     23
+12   0.405  0.158  0.038     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': -0.1542, 'p_tukey': 0.0301}, {'A': '12', 'B': '9', 'diff': -0.0044, 'p_tukey': 0.9968}, {'A': '6', 'B': '9', 'diff': 0.1498, 'p_tukey': 0.0219}]
+  vs .50 by age (Holm): {6: np.float64(0.218), 9: np.float64(0.044), 12: np.float64(0.051)}
+  partial r(p_inf, infant book looking | parent book looking) = 0.8
+  ANCOVA (controls: infant and parent book looking): F(2, 55) = 3.26, p = 0.046
+
+Proportion infant-led vs circular-shift chance (reported): observed M = 0.458 vs chance 0.500, t(59) = -3.32, p = 0.0015
+   6 mo: 0.56 vs 0.555, t = 0.34, p = 0.7349, Holm p = 0.7349
+   9 mo: 0.41 vs 0.469, t = -2.54, p = 0.0188, Holm p = 0.0375
+  12 mo: 0.405 vs 0.476, t = -3.28, p = 0.0047, Holm p = 0.0140
+  condition x age: F(2, 57) = 3.87, p = 0.027
+
+Infant-led minus chance: F(2, 57) = 3.87, p = 0.027, np2 = 0.119; Shapiro-Wilk p = 0.005
+      mean    std    sem  count
+age                            
+6    0.005  0.064  0.014     20
+9   -0.059  0.112  0.023     23
+12  -0.071  0.089  0.022     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': -0.0759, 'p_tukey': 0.0392}, {'A': '12', 'B': '9', 'diff': -0.0118, 'p_tukey': 0.9146}, {'A': '6', 'B': '9', 'diff': 0.0641, 'p_tukey': 0.066}]
+  Kruskal-Wallis H(2) = 8.98, p = 0.011; Dunn (Bonferroni): {6: {6: 1.0, 9: 0.0348, 12: 0.0238}, 9: {6: 0.0348, 9: 1.0, 12: 1.0}, 12: {6: 0.0238, 9: 1.0, 12: 1.0}}
+
+==============================================================================
+RECIPROCITY: WINDOWED CROSS-CORRELATION (Figure 4E)
+==============================================================================
+Coupled windows: 0.434 vs chance 0.282, t(59) = 9.53, p = 1.488e-13
+Within coupled windows: infant leads 0.467, parent 0.462, simultaneous 0.071; t = 0.09, p = 0.929
+
+Lead changes per minute (new leader held >= 2 s): observed M = 1.184 vs chance 0.830, t(59) = 5.70, p = 0.0000
+   6 mo: 1.085 vs 0.934, t = 1.66, p = 0.1136, Holm p = 0.1136
+   9 mo: 1.384 vs 0.809, t = 5.5, p = 0.0000, Holm p = 0.0000
+  12 mo: 1.029 vs 0.735, t = 2.81, p = 0.0126, Holm p = 0.0251
+  condition x age: F(2, 57) = 4.89, p = 0.011
+
+Lead changes per minute minus chance: F(2, 57) = 4.89, p = 0.011, np2 = 0.146; Shapiro-Wilk p = 0.159
+      mean    std    sem  count
+age                            
+6    0.152  0.410  0.092     20
+9    0.575  0.501  0.105     23
+12   0.294  0.431  0.104     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': 0.1417, 'p_tukey': 0.6121}, {'A': '12', 'B': '9', 'diff': -0.2816, 'p_tukey': 0.1357}, {'A': '6', 'B': '9', 'diff': -0.4232, 'p_tukey': 0.0094}]
+
+Proportion of successive coupled episodes with a new leader: 0.52 vs chance 0.47, Wilcoxon p = 0.115 (n = 59 dyads with >= 2 episodes)
+
+==============================================================================
+RECIPROCITY: GRANGER CAUSALITY (Figure 6C)
+==============================================================================
+Parent -> infant: 5.26 vs chance 3.55, t(59) = 5.71, p = 3.851e-07
+  vs chance by age (Holm): {6: np.float64(0.2337), 9: np.float64(0.0025), 12: np.float64(0.0001)}
+
+Parent -> infant influence above chance: F(2, 57) = 6.70, p = 0.002, np2 = 0.190; Shapiro-Wilk p = 0.579
+      mean    std    sem  count
+age                            
+6    0.431  1.567  0.350     20
+9    1.877  2.432  0.507     23
+12   2.955  2.195  0.532     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': 2.5238, 'p_tukey': 0.0018}, {'A': '12', 'B': '9', 'diff': 1.0778, 'p_tukey': 0.2554}, {'A': '6', 'B': '9', 'diff': -1.4461, 'p_tukey': 0.0729}]
+Infant -> parent: 5.76 vs chance 3.52, t(59) = 6.36, p = 3.209e-08
+  vs chance by age (Holm): {6: np.float64(0.0002), 9: np.float64(0.0033), 12: np.float64(0.0115)}
+
+Infant -> parent influence above chance: F(2, 57) = 1.22, p = 0.304, np2 = 0.041; Shapiro-Wilk p = 0.348
+      mean    std    sem  count
+age                            
+6    2.580  2.225  0.498     20
+9    2.589  3.466  0.723     23
+12   1.371  1.981  0.480     17
+  Tukey: [{'A': '12', 'B': '6', 'diff': -1.2097, 'p_tukey': 0.3743}, {'A': '12', 'B': '9', 'diff': -1.2179, 'p_tukey': 0.3472}, {'A': '6', 'B': '9', 'diff': -0.0083, 'p_tukey': 0.9999}]
+Direction x age: F(2, 57) = 5.47, p = 0.0067, np2 = 0.16
+Infant->parent vs parent->infant within age (Holm): {'6 mo t(19) = 3.06': np.float64(0.019), '9 mo t(22) = 0.85': np.float64(0.403), '12 mo t(16) = -2.27': np.float64(0.075)}
+Sensitivity to bin size and history length: see log_granger_sens.txt

@@ -1,0 +1,31 @@
+lead
+parent    0.473
+infant    0.466
+simul     0.061
+Name: proportion, dtype: float64
+lead  infant  parent  simul
+age                        
+6      0.555   0.391  0.054
+9      0.403   0.538  0.059
+12     0.390   0.537  0.073
+        dyad    age      n  ...  follow_med  pinf_lag  ppar_lag
+count  60.00  60.00  60.00  ...       60.00     60.00     60.00
+mean   53.97   8.85  31.18  ...        2.68      2.76      2.25
+std    28.17   2.37  14.03  ...        3.39      3.90      2.93
+min     1.00   6.00   4.00  ...        0.47      0.20      0.53
+25%    32.25   6.00  21.75  ...        1.40      1.13      1.27
+50%    58.50   9.00  31.00  ...        1.96      2.06      1.66
+75%    76.25  12.00  40.50  ...        2.85      3.21      2.35
+max    98.00  12.00  68.00  ...       25.07     29.48     23.42
+
+[8 rows x 9 columns]
+          n  p_inf  switch  switch_chance  pinf_lag  ppar_lag
+age                                                          
+6    41.250  0.560   0.364          0.421     3.917     1.888
+9    22.957  0.410   0.459          0.460     1.669     1.895
+12   30.471  0.405   0.402          0.455     2.882     3.162
+p_inf vs .5 TtestResult(statistic=np.float64(-1.6955087166580922), pvalue=np.float64(0.0952506610775247), df=np.int64(59))
+switch vs chance TtestResult(statistic=np.float64(-2.687125696122862), pvalue=np.float64(0.009349011980374565), df=np.int64(59)) -0.034739295306699246
+p_inf F_onewayResult(statistic=np.float64(4.805578296725366), pvalue=np.float64(0.011785407741243932))
+switch F_onewayResult(statistic=np.float64(3.0846397058373554), pvalue=np.float64(0.05345823139220447))
+follow lag inf vs par WilcoxonResult(statistic=np.float64(738.0), pvalue=np.float64(0.19257047423837748))

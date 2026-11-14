@@ -1,0 +1,4 @@
+mean correlation across page types: 0.73
+one-way age ANOVA: f = 0.41, eta2 = 0.14
+page type (within): f = 0.12, eta_p2 = 0.015
+page type x age: f = 0.14, eta_p2 = 0.018
