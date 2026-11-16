@@ -42,17 +42,6 @@ F(2,57)=3.96 p=0.0246 np2=0.122  SW p=0.0013  KW H=7.81 p=0.0201
  6 9  0.1352   0.0227
 Dunn bonf: {'12': {'12': 1.0, '6': 0.0764, '9': 1.0}, '6': {'12': 0.0764, '6': 1.0, '9': 0.0308}, '9': {'12': 1.0, '6': 0.0308, '9': 1.0}}
 
-### infant_partner_prop  outliers removed=1 ids=[6]
-age_group     6      9      12
-mean       0.024  0.062  0.038
-std        0.046  0.053  0.038
-F(2,56)=3.46 p=0.0384 np2=0.110  SW p=0.0000  KW H=11.27 p=0.0036
- A B    diff  p_tukey
-12 6  0.0139   0.6388
-12 9 -0.0234   0.2722
- 6 9 -0.0373   0.0318
-Dunn bonf: {'12': {'12': 1.0, '6': 0.2269, '9': 0.4903}, '6': {'12': 0.2269, '6': 1.0, '9': 0.0024}, '9': {'12': 0.4903, '6': 0.0024, '9': 1.0}}
-
 ### parent_book_prop  outliers removed=0 ids=[]
 age_group     6      9      12
 mean       0.612  0.568  0.517
@@ -63,17 +52,6 @@ F(2,57)=1.55 p=0.2210 np2=0.052  SW p=0.1764  KW H=2.63 p=0.2681
 12 9 -0.0504   0.6024
  6 9  0.0446   0.6480
 Dunn bonf: {'12': {'12': 1.0, '6': 0.3152, '9': 1.0}, '6': {'12': 0.3152, '6': 1.0, '9': 1.0}, '9': {'12': 1.0, '6': 1.0, '9': 1.0}}
-
-### parent_partner_prop  outliers removed=0 ids=[]
-age_group     6      9      12
-mean       0.163  0.205  0.180
-std        0.094  0.138  0.101
-F(2,57)=0.75 p=0.4785 np2=0.026  SW p=0.2568  KW H=0.77 p=0.6793
- A B    diff  p_tukey
-12 6  0.0171   0.8938
-12 9 -0.0254   0.7699
- 6 9 -0.0425   0.4522
-Dunn bonf: {'12': {'12': 1.0, '6': 1.0, '9': 1.0}, '6': {'12': 1.0, '6': 1.0, '9': 1.0}, '9': {'12': 1.0, '6': 1.0, '9': 1.0}}
 
 ### ja_given_book  outliers removed=0 ids=[]
 age_group     6      9      12
@@ -130,32 +108,7 @@ F(2,56)=4.04 p=0.0229 np2=0.126  SW p=0.0012  KW H=3.19 p=0.2030
  6 9 34.2274   0.2550
 Dunn bonf: {'12': {'12': 1.0, '6': 1.0, '9': 0.3138}, '6': {'12': 1.0, '6': 1.0, '9': 0.5036}, '9': {'12': 0.3138, '6': 0.5036, '9': 1.0}}
 
-### n_utts_kept  outliers removed=1 ids=[68]
-age_group      6       9       12
-mean       42.250  39.696  47.625
-std        17.559  20.404  14.004
-F(2,56)=0.94 p=0.3986 np2=0.032  SW p=0.2026  KW H=2.94 p=0.2300
- A B   diff  p_tukey
-12 6 5.3750   0.6458
-12 9 7.9293   0.3686
- 6 9 2.5543   0.8872
-Dunn bonf: {'12': {'12': 1.0, '6': 0.5498, '9': 0.2981}, '6': {'12': 0.5498, '6': 1.0, '9': 1.0}, '9': {'12': 0.2981, '6': 1.0, '9': 1.0}}
-
-### gestures_per_min  outliers removed=1 ids=[77]
-age_group     6      9      12
-mean       2.354  3.406  3.598
-std        2.043  2.203  2.852
-F(2,52)=1.43 p=0.2497 np2=0.052  SW p=0.0071  KW H=3.00 p=0.2226
- A B    diff  p_tukey
-12 6  1.2438   0.2771
-12 9  0.1917   0.9675
- 6 9 -1.0521   0.3674
-Dunn bonf: {'12': {'12': 1.0, '6': 0.4635, '9': 1.0}, '6': {'12': 0.4635, '6': 1.0, '9': 0.3473}, '9': {'12': 1.0, '6': 0.3473, '9': 1.0}}
-
 === controls
 book_looking_prop {'Intercept': 0.0, 'C(infant_sex)[T.M]': 0.44, 'C(parent_sex)[T.M]': 0.595, 'C(book)[T.2]': 0.288, 'C(book)[T.3]': 0.407}
 joint_book_prop {'Intercept': 0.0, 'C(infant_sex)[T.M]': 0.798, 'C(parent_sex)[T.M]': 0.688, 'C(book)[T.2]': 0.297, 'C(book)[T.3]': 0.646}
-infant_partner_prop {'Intercept': 0.036, 'C(infant_sex)[T.M]': 0.462, 'C(parent_sex)[T.M]': 0.64, 'C(book)[T.2]': 0.165, 'C(book)[T.3]': 0.924}
-n_utts_kept {'Intercept': 0.0, 'C(infant_sex)[T.M]': 0.684, 'C(parent_sex)[T.M]': 0.109, 'C(book)[T.2]': 0.903, 'C(book)[T.3]': 0.971}
-gestures_per_min {'Intercept': 0.001, 'C(infant_sex)[T.M]': 0.418, 'C(parent_sex)[T.M]': 0.218, 'C(book)[T.2]': 0.494, 'C(book)[T.3]': 0.595}
-['dyad_id', 'age_group', 'book', 'infant_sex', 'parent_sex', 'session_s', 'time_individual_s', 'time_category_s', 'time_none_s', 'n_utts_total', 'n_utts_kept', 'n_words_kept', 'book_looking_prop', 'parent_book_prop', 'infant_partner_prop', 'parent_partner_prop', 'joint_book_prop', 'gestures_per_min', 'gestures_deictic_per_min', 'gestures_conventional_per_min', 'gestures_representational_per_min', 'age', 'ja_given_book', 'ja_chance', 'ja_excess', 'ja_ratio']
+['dyad_id', 'age_group', 'book', 'infant_sex', 'parent_sex', 'session_s', 'time_individual_s', 'time_category_s', 'time_none_s', 'book_looking_prop', 'parent_book_prop', 'joint_book_prop', 'age', 'ja_given_book', 'ja_chance', 'ja_excess', 'ja_ratio']

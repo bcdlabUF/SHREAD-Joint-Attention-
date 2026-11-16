@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Reproduce the analyses and figures for:
-#   "Follow the Leader: Infant Attention, Joint Visual Attention, Coordination, and Reciprocity
+#   "From Following to Mutual Responsiveness: Parent–Infant Joint Visual Attention
 #    During Shared Book Reading at 6, 9, and 12 Months"
 # Run from this folder:  bash run_all.sh
 # Working files go to results/. At the end, outputs are sorted into
@@ -17,18 +17,9 @@ run () { echo ">>> $*"; python ../code/"$@" > "log_${1%.py}.txt" 2>"err_${1%.py}
 # ---------------------------------------------------------------------------------------------
 # 0. SHARED PREPARATION (needed by the main paper and the supplement)
 # ---------------------------------------------------------------------------------------------
-run a1.py              # per-dyad measures; sex, book version, session length checks -> cov_derived.csv
-run xc.py              # 30-Hz binary looking series for each dyad -> series.pkl
+run a1.py              # per-dyad book-looking measures; sex, book version, session length checks -> cov_derived.csv
+run xc.py              # 30-Hz binary parent and infant book-looking series for each dyad -> series.pkl
 run xc2.py             # lagged cross-correlations (-10 to +10 s) -> xc_dyad.csv, xc_long.csv
-# Event files required by final_stats.py (which writes final_age.csv, the per-dyad age table).
-# These scripts code parent talk and gesture events; those results are reported in the
-# companion paper (Aukerman et al., submitted), not in this one.
-run booktalk.py        # talk_cat.csv
-run kinds.py           # kinds_events.csv
-run infant.py          # infant_events.csv
-run maint.py           # maint_events.csv
-run breaker.py         # breaker_events.csv
-run page_collapsed.py  # page_dyad.csv (read by the shared figure helpers)
 
 # ---------------------------------------------------------------------------------------------
 # 1. MAIN PAPER
